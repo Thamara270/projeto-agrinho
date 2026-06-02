@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Agrinho - Desmatamento</title>
+    <style>
+        :root {
+            --verde-principal: #2E7D32;
+            --verde-escuro: #1B5E20;
+            --laranja-destaque: #E65100;
+            --fundo-claro: #F5F5F5;
+            --texto-escuro: #333333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--fundo-claro);
+            color: var(--texto-escuro);
+        }
+
+        header {
+            background-color: var(--verde-principal);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid var(--laranja-destaque);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: var(--verde-escuro);
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        article {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .meta-info {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--verde-escuro);
+            margin-top: 0;
+        }
+
+        .badge {
+            background-color: var(--laranja-destaque);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        blockquote {
+            background-color: #E8F5E9;
+            border-left: 5px solid var(--verde-principal);
+            margin: 20px 0;
+            padding: 15px;
+            font-style: italic;
+        }
+
+        .btn-download {
+            display: inline-block;
+            background-color: var(--verde-principal);
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        .btn-download:hover {
+            background-color: var(--verde-escuro);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blog Agrinho</h1>
+        <p>Desmatamento</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Regulamento</a>
+        <a href="#">Materiais Didáticos</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <div class="container">
+        <article>
+            <span class="badge">Inscrições Abertas</span>
+            <h2>Prepare sua escola: Edição do Programa Agrinho traz o foco em Inovação e Sustentabilidade</h2>
+            <div class="meta-info">Publicado em: 2 de Junho de 2026 | Por: Equipe Pedagógica SENAR</div>
+            <p>Este ano, as categorias de <strong>Desenho</strong>, <strong>Redação</strong> e <strong>Relato Pedagógico</strong> trazem critérios atualizados para valorizar a criatividade e o impacto social das ações dentro e fora da comunidade escolar.</p>
+            <blockquote>
+                "A educação no campo é a chave para o desenvolvimento sustentável das nossas cidades. O Agrinho transforma a teoria da sala de aula em prática cidadã."
+            </blockquote>
+
+            <h3>Como participar?</h3>
+            <p>Os professores já podem acessar os guias pedagógicos atualizados e os livros digitais para trabalhar os temas transversais com os alunos. Fiquem atentos aos prazos de submissão dos trabalhos na plataforma oficial!</p>
+
+            <a href="#" class="btn-download">Baixar Regulamento Completo (PDF)</a>
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sistema FAEP/SENAR-PR. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
